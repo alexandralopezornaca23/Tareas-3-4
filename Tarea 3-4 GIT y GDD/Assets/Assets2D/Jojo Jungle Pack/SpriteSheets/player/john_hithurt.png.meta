@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      john_hithurt_0: -764677636037498078
+      john_hithurt_1: 1968717580162347055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

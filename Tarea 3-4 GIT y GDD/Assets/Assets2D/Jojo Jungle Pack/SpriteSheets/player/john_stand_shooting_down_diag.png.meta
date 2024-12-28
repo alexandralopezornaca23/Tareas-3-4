@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      john_stand_shooting_down_diag_0: 7017507175072838988
+      john_stand_shooting_down_diag_1: -270527337319905913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

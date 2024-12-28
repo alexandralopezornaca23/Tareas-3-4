@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      john_stand_looking_down_diag_0: 7255547715316221151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

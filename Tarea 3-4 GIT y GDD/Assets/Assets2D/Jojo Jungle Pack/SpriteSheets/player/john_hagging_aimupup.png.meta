@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      john_hagging_aimupup_0: 3749103170541889393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

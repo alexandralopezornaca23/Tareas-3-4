@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grunt_portal_broke_0: 1547358750242943399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
