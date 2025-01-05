@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        PantallaCarga.NivelCargado("Level_1");
     }
 
     public void Salir()
