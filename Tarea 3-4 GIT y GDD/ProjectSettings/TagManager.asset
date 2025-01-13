@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pipe
   - Ground
+  - HeadMario
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - PlayerDead
+  - OnlyGround
+  - Item
   - 
   - 
   - 
