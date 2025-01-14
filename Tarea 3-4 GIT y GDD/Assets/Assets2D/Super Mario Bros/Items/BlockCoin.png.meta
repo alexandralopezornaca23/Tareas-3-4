@@ -111,10 +111,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 11
+        width: 1
         height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,12 +130,12 @@ TextureImporter:
       name: BlockCoin_1
       rect:
         serializedVersion: 2
-        x: 13
+        x: 6
         y: 0
-        width: 10
+        width: 4
         height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: BlockCoin_2
       rect:
         serializedVersion: 2
-        x: 26
+        x: 14
         y: 0
-        width: 5
+        width: 8
         height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,10 +168,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BlockCoin_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 4
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d084561664ac18547a97dcbbffe7b3bd
+      internalID: -2055832245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c1f5c549ed0de6e48b85ec2b8f9e863c
     internalID: 0
     vertices: []
     indices: 
@@ -182,6 +203,7 @@ TextureImporter:
       BlockCoin_0: 7413980745613244053
       BlockCoin_1: 7209580058504742227
       BlockCoin_2: -6136544200268945211
+      BlockCoin_3: -2055832245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

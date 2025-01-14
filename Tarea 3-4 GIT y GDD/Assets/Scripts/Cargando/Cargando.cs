@@ -31,7 +31,6 @@ public class Cargando : MonoBehaviour
                     operacion.allowSceneActivation = true;
                 }
             }
-
             yield return null;
         }
     }

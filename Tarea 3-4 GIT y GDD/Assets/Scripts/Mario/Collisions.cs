@@ -6,6 +6,7 @@ public class Collisions : MonoBehaviour
 {
     public bool isGrounded;
     public Transform groundCheck;
+    public GameObject checkGround;
     public float groundCheckRadius;
     public LayerMask groundLayer;
 
@@ -112,6 +113,7 @@ public class Collisions : MonoBehaviour
 
     public void Dead()
     {
+        checkGround.SetActive(false);
         gameObject.layer = LayerMask.NameToLayer("PlayerDead");
     }
 

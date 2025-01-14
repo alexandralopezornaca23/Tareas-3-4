@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 445d9db1d27fabe4d91107015d96741e
+guid: 6f2a9a0d1ba1dc648b203c6b93df7007
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5855692299467152017
-    second: FireExplosion_0
-  - first:
-      213: -6288385268471575898
-    second: FireExplosion_1
-  - first:
-      213: 1984887081138021505
-    second: FireExplosion_2
+      213: -8262534425414574923
+    second: FireBall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,34 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FireExplosion_0
+      name: FireBall_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19adabf1f19934150800000000000000
-      internalID: 5855692299467152017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireExplosion_1
-      rect:
-        serializedVersion: 2
-        x: 29
+        x: 0
         y: 0
-        width: 14
-        height: 16
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,29 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6aac3f56aea2bb8a0800000000000000
-      internalID: -6288385268471575898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireExplosion_2
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1846e7ea84cbb8b10800000000000000
-      internalID: 1984887081138021505
+      spriteID: 5bc5ab487b4955d80800000000000000
+      internalID: -8262534425414574923
       vertices: []
       indices: 
       edges: []
@@ -171,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -179,9 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FireExplosion_0: 5855692299467152017
-      FireExplosion_1: -6288385268471575898
-      FireExplosion_2: 1984887081138021505
+      FireBall_0: -8262534425414574923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

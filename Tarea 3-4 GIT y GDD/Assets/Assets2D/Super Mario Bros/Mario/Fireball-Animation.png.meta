@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 6f2a9a0d1ba1dc648b203c6b93df7007
+guid: 3be18acfb41643c40b7e1fe0e64b82ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8262534425414574923
-    second: FireBall_0
+      213: -3050374027527373629
+    second: Fireball-Animation_0
+  - first:
+      213: -263349251073438273
+    second: Fireball-Animation_1
+  - first:
+      213: 4523580534785632644
+    second: Fireball-Animation_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FireBall_0
+      name: Fireball-Animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +120,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bc5ab487b4955d80800000000000000
-      internalID: -8262534425414574923
+      spriteID: 3cc3729cbf4eaa5d0800000000000000
+      internalID: -3050374027527373629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball-Animation_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd07ed5045685cf0800000000000000
+      internalID: -263349251073438273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball-Animation_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489e4c8878cf6ce30800000000000000
+      internalID: 4523580534785632644
       vertices: []
       indices: 
       edges: []
@@ -131,7 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FireBall_0: -8262534425414574923
+      Fireball-Animation_0: -3050374027527373629
+      Fireball-Animation_1: -263349251073438273
+      Fireball-Animation_2: 4523580534785632644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

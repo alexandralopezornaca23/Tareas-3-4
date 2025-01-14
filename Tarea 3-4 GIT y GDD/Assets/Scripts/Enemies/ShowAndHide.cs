@@ -60,11 +60,11 @@ public class ShowAndHide : MonoBehaviour
 
     bool Locked()
     {
-        return Physics2D.OverlapBox((Vector2)transform.position + new Vector2(0f, 1f), Vector2.one, 0f);
+        return Physics2D.OverlapBox(transform.position + Vector3.up, Vector2.one, 0f);
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireCube((Vector2)transform.position + new Vector2(0f, 1f), Vector2.one);
+        Gizmos.DrawWireCube(transform.position + Vector3.up, Vector2.one);
     }
 }

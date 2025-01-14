@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Jugar()
     {
-        PantallaCarga.NivelCargado("Level_1");
+        PantallaCarga.NivelCargado("Level_1_PruebasSuperMarioBros");
     }
 
     public void Salir()
